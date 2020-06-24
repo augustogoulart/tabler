@@ -36,13 +36,13 @@
   </head>
   <body class="antialiased">
     <div class="page">
-      <header class="navbar navbar-expand-md navbar-light">
+      <header class="navbar navbar-expand-md navbar-dark navbar-overlap">
         <div class="container-xl">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu">
             <span class="navbar-toggler-icon"></span>
           </button>
           <a href="." class="navbar-brand navbar-brand-autodark d-none-navbar-horizontal pr-0 pr-md-3">
-            <img src="./static/logo.svg" alt="Tabler" class="navbar-brand-image">
+            <img src="./static/logo-white.svg" alt="Tabler" class="navbar-brand-image">
           </a>
           <div class="navbar-nav flex-row order-md-last">
             <div class="nav-item dropdown d-none d-md-flex mr-3">
@@ -299,7 +299,7 @@
                       </a>
                     </li>
                     <li >
-                      <a class="dropdown-item active" href="./layout-condensed.html" >
+                      <a class="dropdown-item" href="./layout-condensed.html" >
                         Condensed
                       </a>
                     </li>
@@ -319,7 +319,7 @@
                       </a>
                     </li>
                     <li >
-                      <a class="dropdown-item" href="./layout-navbar-overlap.html" >
+                      <a class="dropdown-item active" href="./layout-navbar-overlap.html" >
                         Navbar overlap
                       </a>
                     </li>
@@ -518,7 +518,7 @@
                     <span class="input-icon-addon">
                       <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="10" cy="10" r="7" /><line x1="21" y1="21" x2="15" y2="15" /></svg>
                     </span>
-                    <input type="text" class="form-control" placeholder="Search…">
+                    <input type="text" class="form-control form-control-dark" placeholder="Search…">
                   </div>
                 </form>
               </div>
@@ -529,11 +529,11 @@
       <div class="content">
         <div class="container-xl">
           <!-- Page title -->
-          <div class="page-header">
+          <div class="page-header text-white">
             <div class="row align-items-center">
               <div class="col-auto">
                 <h2 class="page-title">
-                  Condensed layout
+                  Navbar overlap layout
                 </h2>
               </div>
             </div>
@@ -882,7 +882,7 @@
               <div class="card card-sm">
                 <div class="card-body d-flex align-items-center">
                   <div class="mr-3">
-                    <div class="chart-sparkline chart-sparkline-square" id="sparkline-25"></div>
+                    <div class="chart-sparkline chart-sparkline-square" id="sparkline-61"></div>
                   </div>
                   <div class="mr-3 lh-sm">
                     <div class="strong">
@@ -903,7 +903,7 @@
                     <div class="text-muted">16 waiting</div>
                   </div>
                   <div class="ml-auto">
-                    <div class="chart-sparkline chart-sparkline-square" id="sparkline-26"></div>
+                    <div class="chart-sparkline chart-sparkline-square" id="sparkline-62"></div>
                   </div>
                 </div>
               </div>
@@ -933,7 +933,7 @@
                       <td class="text-muted">3,654</td>
                       <td class="text-muted">82.54%</td>
                       <td class="text-right">
-                        <div class="chart-sparkline" id="sparkline-27"></div>
+                        <div class="chart-sparkline" id="sparkline-63"></div>
                       </td>
                     </tr>
                     <tr>
@@ -946,7 +946,7 @@
                       <td class="text-muted">3,215</td>
                       <td class="text-muted">76.29%</td>
                       <td class="text-right">
-                        <div class="chart-sparkline" id="sparkline-28"></div>
+                        <div class="chart-sparkline" id="sparkline-64"></div>
                       </td>
                     </tr>
                     <tr>
@@ -959,7 +959,7 @@
                       <td class="text-muted">2,865</td>
                       <td class="text-muted">72.65%</td>
                       <td class="text-right">
-                        <div class="chart-sparkline" id="sparkline-29"></div>
+                        <div class="chart-sparkline" id="sparkline-65"></div>
                       </td>
                     </tr>
                     <tr>
@@ -972,7 +972,7 @@
                       <td class="text-muted">865</td>
                       <td class="text-muted">44.89%</td>
                       <td class="text-right">
-                        <div class="chart-sparkline" id="sparkline-30"></div>
+                        <div class="chart-sparkline" id="sparkline-66"></div>
                       </td>
                     </tr>
                   </table>
@@ -1631,7 +1631,7 @@
     </script>
     <script>
       document.addEventListener("DOMContentLoaded", function () {
-      	$().peity && $('#sparkline-25').text("56/100").peity("pie", {
+      	$().peity && $('#sparkline-61').text("56/100").peity("pie", {
       		width: 40,
       		height: 40,
       		stroke: "#cd201f",
@@ -1644,7 +1644,7 @@
     </script>
     <script>
       document.addEventListener("DOMContentLoaded", function () {
-      	$().peity && $('#sparkline-26').text("22/100").peity("pie", {
+      	$().peity && $('#sparkline-62').text("22/100").peity("pie", {
       		width: 40,
       		height: 40,
       		stroke: "#fab005",
@@ -1657,7 +1657,7 @@
     </script>
     <script>
       document.addEventListener("DOMContentLoaded", function () {
-      	$().peity && $('#sparkline-27').text("17, 24, 20, 10, 5, 1, 4, 18, 13").peity("line", {
+      	$().peity && $('#sparkline-63').text("17, 24, 20, 10, 5, 1, 4, 18, 13").peity("line", {
       		width: 64,
       		height: 40,
       		stroke: "#206bc4",
@@ -1669,7 +1669,7 @@
     </script>
     <script>
       document.addEventListener("DOMContentLoaded", function () {
-      	$().peity && $('#sparkline-28').text("13, 11, 19, 22, 12, 7, 14, 3, 21").peity("line", {
+      	$().peity && $('#sparkline-64').text("13, 11, 19, 22, 12, 7, 14, 3, 21").peity("line", {
       		width: 64,
       		height: 40,
       		stroke: "#206bc4",
@@ -1681,7 +1681,7 @@
     </script>
     <script>
       document.addEventListener("DOMContentLoaded", function () {
-      	$().peity && $('#sparkline-29').text("10, 13, 10, 4, 17, 3, 23, 22, 19").peity("line", {
+      	$().peity && $('#sparkline-65').text("10, 13, 10, 4, 17, 3, 23, 22, 19").peity("line", {
       		width: 64,
       		height: 40,
       		stroke: "#206bc4",
@@ -1693,7 +1693,7 @@
     </script>
     <script>
       document.addEventListener("DOMContentLoaded", function () {
-      	$().peity && $('#sparkline-30').text("9, 6, 14, 11, 8, 24, 2, 16, 15").peity("line", {
+      	$().peity && $('#sparkline-66').text("9, 6, 14, 11, 8, 24, 2, 16, 15").peity("line", {
       		width: 64,
       		height: 40,
       		stroke: "#206bc4",
